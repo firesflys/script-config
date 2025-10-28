@@ -37,6 +37,10 @@
     {
       "config": "02 7 * * * https://raw.githubusercontent.com/lslive/script-config/main/yidong/index.js, tag=移动签到, img-url=https://raw.githubusercontent.com/lslive/script-config/main/icon/longfor-logo.png, enabled=true",
       "addons": "https://raw.githubusercontent.com/lslive/script-config/main/yidong/index.conf, tag=移动签到token"
+    },
+    {
+      "config": "02 7 * * * https://raw.githubusercontent.com/lslive/script-config/main/zhong-hang/index.js, tag=中行签到, img-url=https://raw.githubusercontent.com/lslive/script-config/main/icon/longfor-logo.png, enabled=false",
+      "addons": "https://raw.githubusercontent.com/lslive/script-config/main/zhong-hang/index.conf, tag=中行签到token"
     }
   ]
 }
