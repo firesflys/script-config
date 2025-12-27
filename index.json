@@ -3,6 +3,23 @@
   "description": "tg频道",
   "task": [
     {
+      "config": "0 24 * * * https://raw.githubusercontent.com/firesflys/script-config/main/index.js, tag=Emby 重写, enabled=false",
+      "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/emby.conf, tag=Emby Premiere"
+    },
+    {
+      "config": "0 24 * * * https://raw.githubusercontent.com/firesflys/script-config/main/index.js, tag=京东比价 重写, enabled=false",
+      "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/jd.js, tag=京东比价"
+    },
+    {
+      "config": "0 24 * * * https://raw.githubusercontent.com/firesflys/script-config/main/index.js, tag=芒果会员 重写, enabled=false",
+      "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/mgtvhy.conf, tag=芒果会员"
+    },
+    {
+      "config": "0 24 * * * https://raw.githubusercontent.com/firesflys/script-config/main/index.js, tag=Soul 重写, enabled=false",
+      "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/Soul.snippet, tag=Soul Premiere"
+    },
+
+    {
       "config": "01 7 * * * https://raw.githubusercontent.com/firesflys/script-config/main/yun-shan-fu/index.js, tag=云闪付, enabled=true",
       "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/yun-shan-fu/index.conf, tag=云闪付获取token"
     },
@@ -45,22 +62,6 @@
     {
       "config": "19 7,11,14 * * * https://raw.githubusercontent.com/firesflys/script-config/main/other/aliyun.js, tag=阿里云APP, enabled=true",
       "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/aliyun.js, tag=阿里云获取token"
-    },
-    {
-      "config": "* * * * * index.js, tag=Emby 重写, enabled=false",
-      "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/emby.conf, tag=Emby Premiere"
-    },
-    {
-      "config":  "* * * * * index.js, tag=京东比价 重写, enabled=false",
-      "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/jd.js, tag=京东比价"
-    },
-    {
-      "config":  "* * * * * index.js, tag=芒果会员 重写, enabled=false",
-      "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/mgtvhy.conf, tag=芒果会员"
-    },
-    {
-      "config":  "* * * * * index.js, tag=Soul 重写, enabled=false",
-      "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/Soul.snippet, tag=Soul Premiere"
     }
   ]
 }
