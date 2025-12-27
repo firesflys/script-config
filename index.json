@@ -1,46 +1,62 @@
 {
-  "name": "lslive",
+  "name": "firesflys",
   "description": "tg频道",
   "task": [
     {
-      "config": "01 7 * * * https://raw.githubusercontent.com/lslive/script-config/main/yun-shan-fu/index.js, tag=云闪付, img-url=https://raw.githubusercontent.com/lslive/script-config/main/icon/ysf-logo.png, enabled=true",
-      "addons": "https://raw.githubusercontent.com/lslive/script-config/main/yun-shan-fu/index.conf, tag=云闪付获取token"
+      "config": "01 7 * * * https://raw.githubusercontent.com/firesflys/script-config/main/yun-shan-fu/index.js, tag=云闪付, enabled=true",
+      "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/yun-shan-fu/index.conf, tag=云闪付获取token"
     },
     {
-      "config": "02 7 * * * https://raw.githubusercontent.com/lslive/script-config/main/hai-di-lao/index.js, tag=海底捞, img-url=https://raw.githubusercontent.com/lslive/script-config/main/icon/hdl-logo.png, enabled=true",
-      "addons": "https://raw.githubusercontent.com/lslive/script-config/main/hai-di-lao/index.conf, tag=海底捞获取token"
+      "config": "02 7 * * * https://raw.githubusercontent.com/firesflys/script-config/main/hai-di-lao/index.js, tag=海底捞, enabled=true",
+      "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/hai-di-lao/index.conf, tag=海底捞获取token"
     },
     {
-      "config": "03 7 * * * https://raw.githubusercontent.com/lslive/script-config/main/longfor/index.js, tag=龙湖签到, img-url=https://raw.githubusercontent.com/lslive/script-config/main/icon/longfor-logo.png, enabled=true",
-      "addons": "https://raw.githubusercontent.com/lslive/script-config/main/longfor/index.conf, tag=龙湖签到token"
+      "config": "03 7 * * * https://raw.githubusercontent.com/firesflys/script-config/main/longfor/index.js, tag=龙湖签到, enabled=true",
+      "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/longfor/index.conf, tag=龙湖签到token"
     },
     {
-      "config": "0 9 * * 1 https://raw.githubusercontent.com/lslive/script-config/main/guo-bu/index.js, tag=国补, img-url=https://raw.githubusercontent.com/lslive/script-config/main/icon/longfor-logo.png, enabled=true",
-      "addons": "https://raw.githubusercontent.com/lslive/script-config/main/guo-bu/index.conf, tag=国补token"
+      "config": "0 9 * * 1 https://raw.githubusercontent.com/firesflys/script-config/main/guo-bu/index.js, tag=国补, enabled=true",
+      "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/guo-bu/index.conf, tag=国补token"
     },
     {
-      "config": "00 8,10,12,14,16,18,20 * * * https://raw.githubusercontent.com/lslive/script-config/main/jd/index.js, tag=京东, img-url=https://raw.githubusercontent.com/lslive/script-config/main/icon/longfor-logo.png, enabled=true",
-      "addons": "https://raw.githubusercontent.com/lslive/script-config/main/jd/index.conf, tag=京东token"
+      "config": "00 8,10,12,14,16,18,20 * * * https://raw.githubusercontent.com/firesflys/script-config/main/jd/index.js, tag=京东, enabled=true",
+      "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/jd/index.conf, tag=京东token"
     },
     {
-      "config": "03 7 * * * https://raw.githubusercontent.com/lslive/script-config/main/mei-di/index.js, tag=美的, img-url=https://raw.githubusercontent.com/lslive/script-config/main/icon/longfor-logo.png, enabled=true",
-      "addons": "https://raw.githubusercontent.com/lslive/script-config/main/mei-di/index.conf, tag=美的token"
+      "config": "03 7 * * * https://raw.githubusercontent.com/firesflys/script-config/main/mei-di/index.js, tag=美的, enabled=true",
+      "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/mei-di/index.conf, tag=美的token"
     },
     {
-      "config": "04 7 * * * https://raw.githubusercontent.com/lslive/script-config/main/jd-dushu/index.js, tag=京东读书, img-url=https://raw.githubusercontent.com/lslive/script-config/main/icon/longfor-logo.png, enabled=true",
-      "addons": "https://raw.githubusercontent.com/lslive/script-config/main/jd-dushu/index.conf, tag=京东读书token"
+      "config": "04 7 * * * https://raw.githubusercontent.com/firesflys/script-config/main/jd-dushu/index.js, tag=京东读书, enabled=true",
+      "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/jd-dushu/index.conf, tag=京东读书token"
     },
     {
-      "config": "05 7 * * * https://raw.githubusercontent.com/lslive/script-config/main/shun-feng/index.js, tag=顺丰积分, img-url=https://raw.githubusercontent.com/lslive/script-config/main/icon/longfor-logo.png, enabled=true",
-      "addons": "https://raw.githubusercontent.com/lslive/script-config/main/shun-feng/index.conf, tag=顺丰积分token"
+      "config": "05 7 * * * https://raw.githubusercontent.com/firesflys/script-config/main/shun-feng/index.js, tag=顺丰积分, enabled=true",
+      "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/shun-feng/index.conf, tag=顺丰积分token"
     },
     {
-      "config": "02 7 * * * https://raw.githubusercontent.com/lslive/script-config/main/yidong/index.js, tag=移动签到, img-url=https://raw.githubusercontent.com/lslive/script-config/main/icon/longfor-logo.png, enabled=true",
-      "addons": "https://raw.githubusercontent.com/lslive/script-config/main/yidong/index.conf, tag=移动签到token"
+      "config": "02 7 * * * https://raw.githubusercontent.com/firesflys/script-config/main/yidong/index.js, tag=移动签到, enabled=true",
+      "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/yidong/index.conf, tag=移动签到token"
     },
     {
-      "config": "02 7 * * * https://raw.githubusercontent.com/lslive/script-config/main/zhong-hang/index.js, tag=中行签到, img-url=https://raw.githubusercontent.com/lslive/script-config/main/icon/longfor-logo.png, enabled=false",
-      "addons": "https://raw.githubusercontent.com/lslive/script-config/main/zhong-hang/index.conf, tag=中行签到token"
+      "config": "02 7 * * * https://raw.githubusercontent.com/firesflys/script-config/main/zhong-hang/index.js, tag=中行签到, enabled=false",
+      "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/zhong-hang/index.conf, tag=中行签到token"
+    },
+    {
+      "config": "19 7,11,14 * * * https://raw.githubusercontent.com/firesflys/script-config/main/other/aliyun.js, tag=阿里云APP, enabled=true",
+      "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/aliyun.js, tag=阿里云获取token"
+    },
+    {
+      "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/emby.conf, tag=Emby Premiere"
+    },
+    {
+      "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/jd.js, tag=京东比价"
+    },
+    {
+      "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/mgtvhy.conf, tag=芒果会员"
+    },
+    {
+      "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/Soul.snippet, tag=Soul Premiere"
     }
   ]
 }
