@@ -47,19 +47,19 @@
       "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/aliyun.js, tag=阿里云获取token"
     },
     {
-      "config": "0 0 * * * emby-index.js, tag=Emby 重写, enabled=false",
+      "config": "0 0 * * * https://raw.githubusercontent.com/firesflys/script-config/main/emby-index.js, tag=Emby 重写, enabled=false",
       "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/emby.conf, tag=Emby Premiere"
     },
     {
-      "config": "0 0 * * * jd-index.js, tag=京东比价 重写, enabled=false",
+      "config": "0 0 * * * https://raw.githubusercontent.com/firesflys/script-config/main/jd-index.js, tag=京东比价 重写, enabled=false",
       "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/jd.js, tag=京东比价"
     },
     {
-      "config": "0 0 * * * jgtv-index.js, tag=芒果会员 重写, enabled=false",
+      "config": "0 0 * * * https://raw.githubusercontent.com/firesflys/script-config/main/jgtv-index.js, tag=芒果会员 重写, enabled=false",
       "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/mgtvhy.conf, tag=芒果会员"
     },
     {
-      "config": "0 0 * * * soul-index.js, tag=Soul 重写, enabled=false",
+      "config": "0 0 * * * https://raw.githubusercontent.com/firesflys/script-config/main/soul-index.js, tag=Soul 重写, enabled=false",
       "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/Soul.snippet, tag=Soul Premiere"
     }
   ]
