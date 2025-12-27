@@ -47,15 +47,19 @@
       "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/aliyun.js, tag=阿里云获取token"
     },
     {
+      "config": "* * * * * index.js, tag=Emby 重写, enabled=false",
       "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/emby.conf, tag=Emby Premiere"
     },
     {
+      "config":  "* * * * * index.js, tag=京东比价 重写, enabled=false",
       "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/jd.js, tag=京东比价"
     },
     {
+      "config":  "* * * * * index.js, tag=芒果会员 重写, enabled=false",
       "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/mgtvhy.conf, tag=芒果会员"
     },
     {
+      "config":  "* * * * * index.js, tag=Soul 重写, enabled=false",
       "addons": "https://raw.githubusercontent.com/firesflys/script-config/main/other/Soul.snippet, tag=Soul Premiere"
     }
   ]
